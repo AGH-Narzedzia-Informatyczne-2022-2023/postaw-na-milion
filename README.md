@@ -1,1 +1,3 @@
-# postaw-na-milion
+# MILIONERZY
+
+Projekt na narzędzia informatyczne.
