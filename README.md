@@ -18,3 +18,8 @@ Grupa milionerzy została stworzona w celu doskonalenia umiejętności programow
 
 ### Licencja
 Przekierowanie do [Licencji](https://github.com/AGH-Narzedzia-Informatyczne-2022-2023/postaw-na-milion/blob/main/LICENSE.md)
+
+
+### O grze
+Jest to quiz oparty na popularnym teleturnieju "Postaw na milion", gdzie zawodnsię to udaje. Nasza wersja gry będzie także posiadać dodatkowe aspekty tj. koła ratunkowe, których nie było w oryginalnym teleturnieju.
+![postaw_na_milion](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpostawnamilion.tvp.pl%2F35992086%2Fo-programie&psig=AOvVaw2PF-z25ZLcKVuCtSLOQTbh&ust=1668540256349000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDOp_yyrvsCFQAAAAAdAAAAABAE)
