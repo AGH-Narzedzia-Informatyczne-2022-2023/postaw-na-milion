@@ -9,3 +9,6 @@ Projekt na narzędzia informatyczne.
 - Krzysztof Wrona
 - Martyna Baran
 - Patrycja Potoczek
+
+## Zamysł grupy 
+Grupa milionerzy została stworzona w celu doskonalenia umiejętności programowania, a także operowania w różnych aplikacjach.
