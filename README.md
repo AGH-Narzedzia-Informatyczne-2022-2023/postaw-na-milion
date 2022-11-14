@@ -21,5 +21,5 @@ Przekierowanie do [Licencji](https://github.com/AGH-Narzedzia-Informatyczne-2022
 
 
 ### O grze
-Jest to quiz oparty na popularnym teleturnieju "Postaw na milion", gdzie zawodnsię to udaje. Nasza wersja gry będzie także posiadać dodatkowe aspekty tj. koła ratunkowe, których nie było w oryginalnym teleturnieju.
+Jest to quiz oparty na popularnym teleturnieju "Postaw na milion", gdzie zawodnicy muszą odpowiedzieć poprawnie na pytania, aby opuścić studio z jak największą ilością pieniędzy. Nasza wersja gry będzie posiadać dodatkowe aspekty tj. koła ratunkowe, których nie było w oryginalnym teleturnieju.
 [Zasady gry](https://pl.wikipedia.org/wiki/Postaw_na_milion)
