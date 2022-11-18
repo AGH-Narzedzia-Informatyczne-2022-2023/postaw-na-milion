@@ -25,4 +25,4 @@ Jest to quiz oparty na popularnym teleturnieju "Postaw na milion", gdzie zawodni
 [Zasady gry](https://pl.wikipedia.org/wiki/Postaw_na_milion)
 
 ### Technologie
-Gra zostanie napisana przy użyciu języka Python
+Gra zostanie napisana przy użyciu języka Python.
