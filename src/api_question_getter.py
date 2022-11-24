@@ -5,7 +5,7 @@ class ApiQuestionGetter:
     url = "https://opentdb.com/api.php?"
 
     def get_n_questions(self, amount):
-        return self.get_questions({'amount': amount})
+        return self.get_questions({'amount': amount, 'type': 'multiple'})
 
     def get_questions(self, dict):
         parameters = []

@@ -14,7 +14,8 @@ class UI():
     question_number = 1
     question_max_number = 10
 
-    def __init__(self):
+    def __init__(self, question_handler):
+        self.question_handler = question_handler
         frame = TitlePage(self.window, self)
         frame.grid(row=0, column=0, sticky="nsew")
         frame.tkraise()
@@ -29,6 +30,7 @@ class UI():
         self.window.configure(bg=self.bg)
 
     def start_quiz(self):
+        self.question_handler.load_questions()
         frame = QuestionPage(self.window, self, self.question_number)
         frame.grid(row=0, column=0, sticky="nsew")
         frame.tkraise()

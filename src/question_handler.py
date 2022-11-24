@@ -9,4 +9,4 @@ class QuestionHandler:
         self.api = ApiQuestionGetter()
 
     def load_questions(self):
-        self.questions = self.api.get_questions(self.question_count)
+        self.questions = self.api.get_n_questions(self.question_count)

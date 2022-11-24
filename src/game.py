@@ -8,4 +8,4 @@ class Game:
     def __init__(self):
         print("Game stworzony")
         self.question_handler = QuestionHandler()
-        self.UI = UI()
+        self.UI = UI(self.question_handler)
