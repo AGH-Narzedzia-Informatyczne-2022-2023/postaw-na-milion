@@ -1,3 +1,4 @@
+import random
 from tkinter import *
 
 
@@ -17,11 +18,19 @@ class QuestionPage(Frame):
         questionTitle = Label(self, text=question['question'])
         questionTitle.grid(row=1, column=2, padx=10, pady=10)
 
+        answers = [
+            question['correct_answer'],
+            question['incorrect_answers'][0],
+            question['incorrect_answers'][1],
+            question['incorrect_answers'][2],
+        ]
+        random.shuffle(answers)
+
         self.answer = IntVar()
-        self.show_answer(question['correct_answer'], 2)
-        self.show_answer(question['incorrect_answers'][0], 3)
-        self.show_answer(question['incorrect_answers'][1], 4)
-        self.show_answer(question['incorrect_answers'][2], 5)
+        self.show_answer(answers[0], 2)
+        self.show_answer(answers[1], 3)
+        self.show_answer(answers[2], 4)
+        self.show_answer(answers[3], 5)
 
     def show_answer(self, text, number):
         r = Radiobutton(self, text=text, variable=self.answer, value=number)
