@@ -1,3 +1,4 @@
+from .question_handler import QuestionHandler
 from .ui import UI
 
 
@@ -6,4 +7,5 @@ class Game:
 
     def __init__(self):
         print("Game stworzony")
-        self.UI = UI()
+        self.question_handler = QuestionHandler()
+        self.UI = UI(self.question_handler)
