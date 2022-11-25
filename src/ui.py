@@ -35,13 +35,14 @@ class UI():
         frame.grid(row=0, column=0, sticky="nsew")
         frame.tkraise()
 
-    def next_question(self):
-        self.question_number += 1
-        if self.question_number > self.question_max_number:
-            frame = EndPage(self.window, self)
+    def next_question(self, correct):
+        if self.question_number >= self.question_max_number or not correct:
+            message = "You win" if correct else "You lose"
+            frame = EndPage(self.window, self, message)
             frame.grid(row=0, column=0, sticky="nsew")
             frame.tkraise()
         else:
+            self.question_number += 1
             frame = QuestionPage(self.window, self, self.question_number)
             frame.grid(row=0, column=0, sticky="nsew")
             frame.tkraise()

@@ -2,8 +2,15 @@ from tkinter import *
 
 
 class EndPage(Frame):
-    def __init__(self, parent, controller):
+    def __init__(self, parent, controller, message):
         Frame.__init__(self, parent)
+
+        message = Label(self, text=message)
+        message.pack()
+
+        correct_answers = Label(self, text=f'{controller.question_number - 1}/{controller.question_max_number} correct answers')
+        correct_answers.pack()
+
         close_button = Button(
             self,
             text='End game',
