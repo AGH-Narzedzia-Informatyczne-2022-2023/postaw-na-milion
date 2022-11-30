@@ -10,7 +10,7 @@ class QuestionPage(Frame):
         self.question = controller.question_handler.questions[number-1]
         print(self.question)
 
-        questionNumber = Label(self, text=f"Inny tekst pytanie {number}")
+        questionNumber = Label(self, text=f"Pytanie {number}")
         questionNumber.grid(row=0, column=4, padx=10, pady=10)
 
         nextQuestion = Button(self, text="Next Question", command=self.check_answer)
