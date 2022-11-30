@@ -20,7 +20,7 @@ class QuestionPage(Frame):
         questionTitle.grid(row=1, column=2, padx=10, pady=10)
 
         self.answers = [
-            self.question['correct_answer'],
+            self.question['correct_answer wow'],
             self.question['incorrect_answers'][0],
             self.question['incorrect_answers'][1],
             self.question['incorrect_answers'][2],
