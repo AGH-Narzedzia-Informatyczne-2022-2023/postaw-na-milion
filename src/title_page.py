@@ -8,7 +8,7 @@ class TitlePage(Frame):
         # self.parent = parent
         btn = Button(
             self,
-            text='Zacznij grę !',
+            text='Zaczynamyyyyyyyyyyyyyyyyyyyyyyy !',
             bd='3',
             command=controller.start_quiz,
             width=10,
