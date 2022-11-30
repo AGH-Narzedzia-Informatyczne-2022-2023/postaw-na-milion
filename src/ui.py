@@ -10,7 +10,7 @@ class UI():
     title = "Tytuł"
     width = 1600
     height = 900
-    bg = "#74b9fa"
+    bg = "#74b9ba"
     question_number = 1
     question_max_number = 10
 
