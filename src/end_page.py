@@ -23,7 +23,7 @@ class EndPage(Frame):
 
         restart_button = Button(
             self,
-            text='Try again',
+            text='Zagraj ponownie',
             bd='3',
             command=controller.restart_quiz,
             width=10,
