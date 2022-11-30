@@ -13,7 +13,7 @@ class QuestionPage(Frame):
         questionNumber = Label(self, text=f"Question {number}")
         questionNumber.grid(row=0, column=4, padx=10, pady=10)
 
-        nextQuestion = Button(self, text="Next Question", command=self.check_answer)
+        nextQuestion = Button(self, text="Następne pytanie", command=self.check_answer)
         nextQuestion.grid(row=6, column=1, padx=10, pady=10)
 
         questionTitle = Label(self, text=self.question['question'])
