@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b943035-1b3d-4715-a649-f14f26bc996b" name="Changes" comment="Created title screen">
-      <change beforePath="$PROJECT_DIR$/src/title_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/title_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/end_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/end_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9c8db397-b66c-48da-8da2-60100d1b4a0f" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
