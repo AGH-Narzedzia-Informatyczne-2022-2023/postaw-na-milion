@@ -13,7 +13,7 @@ class EndPage(Frame):
 
         close_button = Button(
             self,
-            text='End game',
+            text='KONIEC I KONIEC',
             bd='3',
             command=controller.close_application,
             width=10,
